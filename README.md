@@ -1,4 +1,4 @@
-# ShytLabs-Takehome
+# ShyftLabs-Takehome
 
 generated swagger models and http function stubs through go swagger
 https://goswagger.io/install.html

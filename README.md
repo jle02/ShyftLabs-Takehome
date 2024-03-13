@@ -19,4 +19,5 @@ to run the program I used:
     go run cmd/shyftlabs-io-server/main.go
 
 Some enhancements that can be made: 
-    move out handler logic into managers if the logic gets a bit more complicated. Handlers should just be handling the http request and respoonse logic as well as transforming the db model to the swagger model for the response. A manager should be the one to have access to the repositories. 
+
+move out handler logic into managers if the logic gets a bit more complicated. Handlers should just be handling the http request and respoonse logic as well as transforming the db model to the swagger model for the response. A manager should be the one to have access to the repositories. 

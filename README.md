@@ -12,7 +12,7 @@ this allowed me to start with a swagger definition that can be easily agreed upo
 Used postgres db for local testing
     DB credentials in production should never be stored in code, usually it'd be retrieved by from a secret deployed in in whichever cloud provider is being used at the time
 
-entry point is main.go and business level handler logic is in handlers.go/courseHandler.go/studentHandler.go/resultHandler.go
+entry point is cmd/shyftlabs-io-server/main.go and business level handler logic is in handlers.go/courseHandler.go/studentHandler.go/resultHandler.go
 
 to run the program I used: 
 

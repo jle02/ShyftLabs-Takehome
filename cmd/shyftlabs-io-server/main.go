@@ -5,10 +5,8 @@ package main
 import (
 	"log"
 	"os"
-	// "fmt"
 
 	"github.com/go-openapi/loads"
-	// "github.com/go-openapi/runtime/middleware"
 	flags "github.com/jessevdk/go-flags"
 
 	"github.com/jle02/ShyftLabs-Takehome/db"
@@ -16,11 +14,6 @@ import (
 	"github.com/jle02/ShyftLabs-Takehome/gen/restapi"
 	"github.com/jle02/ShyftLabs-Takehome/gen/restapi/operations"
 	"github.com/jle02/ShyftLabs-Takehome/handlers"
-
-	// swaggerModels "github.com/jle02/ShyftLabs-Takehome/gen/models"
-	// studentOperations "github.com/jle02/ShyftLabs-Takehome/gen/restapi/operations/students"
-	// courseOperations "github.com/jle02/ShyftLabs-Takehome/gen/restapi/operations/courses"
-	// resultOperations "github.com/jle02/ShyftLabs-Takehome/gen/restapi/operations/results"
 
 )
 
